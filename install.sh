@@ -2,6 +2,7 @@
 
 # Nipe install
 cd ~/
+sudo apt-get install perl
 git clone https://github.com/GouveaHeitor/nipe && cd nipe
 sudo cpan install Try::Tiny Config::Simple JSON
 sudo perl nipe.pl install
@@ -48,7 +49,7 @@ cd ~/
 echo ""
 tput setaf 1; echo "Please go to https://ngrok.com/download to install ngrok!!!"
 echo ""
-tput setaf 2; echo "DONE!"
+tput setaf 2; echo "DONE! Please restart terminal..."
 
 #Delete install Script
 rm ~/aliases/install.sh
